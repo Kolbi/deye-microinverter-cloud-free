@@ -9,7 +9,7 @@ It also takes care of Home Assistant autodiscovery leading to things just workin
 
 The dummycloud is configured using environment variables to be container-friendly to use.
 
-- `LOGLEVEL` (defaults to `info`)
+- `LOGLEVEL` (defaults to `info`, available options: 'error', 'warn', 'info', 'debug', 'trace')
 - `MQTT_BROKER_URL` (no default. Should look like `mqtt://foo.bar`)
 - `MQTT_USERNAME` (no default, optional.)
 - `MQTT_PASSWORD` (no default, optional.)
